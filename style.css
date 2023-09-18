@@ -7,11 +7,13 @@ body {
   align-items: center;
   background-color: #f6f5f6;
 }
+
 img {
   width: 150px;
   border-radius: 10%;
   border: 1px solid #b3e7e7;
 }
+
 .lul {
   border: 1px solid green;
   height: 300px;
@@ -22,48 +24,65 @@ img {
   list-style-type: none;
   background-color: lightblue;
 }
+
 a {
   text-decoration: none;
 }
+
 .gauche {
   text-align: left;
   margin-left: 10px;
 }
+
 .lien {
   border-radius: 5px;
   margin-left: 42px;
 }
+
 .lescroll {
   overflow-y: scroll;
   overflow-x: hidden;
   background-color: #f6f5f6;
 }
+
 .dropdown-item {
   font-size: 10px !important;
   width: 80vw;
   height: 30px;
 }
+
 .lebutt {
   background-color: transparent;
   border: 1px solid #b3e7e7;
   color: #b3e7e7;
 }
+
 .lebutt:hover {
   color: green;
 }
+
 .dropdown-item:hover {
   background-color: green;
   color: #f6f5f6;
 }
+
 #btn-send {
   color: #b3e7e7;
   border: 1px solid #b3e7e7;
 }
+
 #barre-rech {
   border: 1px solid #b3e7e7;
 }
+
 .lacarte {
   border: 1px solid #b3e7e7;
   padding: 2px;
   box-shadow: 1px 2px 3px 2px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

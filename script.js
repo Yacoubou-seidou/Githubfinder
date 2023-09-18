@@ -5,7 +5,7 @@ btnSend.addEventListener("click", lancerSearch);
 function lancerSearch(event) {
   event.preventDefault();
   let nombre = 0;
-  let adresse = "";
+  let adresse = {};
   let lesProj = "";
   const objetRecher = barreRech.value.trim();
   const turl = `https://api.github.com/users/${objetRecher}/repos?type=owner`;
